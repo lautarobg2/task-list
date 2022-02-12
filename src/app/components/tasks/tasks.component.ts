@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from 'src/app/services/task.service';
-import { task } from "../../task-interface";
+import { Task } from "../../task-interface";
 
 
 @Component({
@@ -10,7 +10,7 @@ import { task } from "../../task-interface";
 })
 export class TasksComponent implements OnInit {
 
-  tasks: task[] = [];
+  tasks: Task[] = [];
 
   constructor( private taskService: TaskService) { }
 

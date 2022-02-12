@@ -1,5 +1,5 @@
-import { task } from "./task-interface"
-export const TASKS: task[] = [                     
+import { Task } from "./task-interface"
+export const TASKS: Task[] = [                     
 
             {                                              
                 id: 1,                                   
